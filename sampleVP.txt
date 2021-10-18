@@ -1,0 +1,28 @@
+header {
+    gtfs_realtime_version: "1.0"
+    incrementality: FULL_DATASET
+    timestamp: 1449042263
+}
+entity {
+    id: "1449042263_1505"
+    vehicle {
+        trip {          
+            trip_id: "109486700"
+            schedule_relationship: SCHEDULED
+            route_id: "AB"
+            direction_id: 1
+        }
+        position {
+            latitude: 39.8419       #float?
+            longitude: -104.676231  #float?
+            bearing: 161            #int? 
+        }
+        current_status: 2           #int? Don't know what this means 
+        timestamp: 1449042245       #
+        stop_id: "22903"
+        vehicle {
+            id: "1505"
+            label: "1505"
+        }
+    }
+}
